@@ -4,7 +4,7 @@
 
 Versi lanjutan dari aplikasi restoran sederhana berbasis JavaScript dan Webpack, yang kini sudah diintegrasikan dengan Progressive Web App (PWA) agar dapat berjalan secara offline, cepat, dan dapat diinstal seperti aplikasi native.
 
-- Proyek ini dibuat untuk memenuhi kriteria:
+- Submission ini dibuat untuk memenuhi kriteria:
 
 ### Halaman Utama (Daftar Restoran) – menampilkan daftar restoran yang diambil dari data API.
 - Halaman Detail Restoran – menampilkan detail informasi restoran (menu, alamat, rating, review).
@@ -19,3 +19,13 @@ Versi lanjutan dari aplikasi restoran sederhana berbasis JavaScript dan Webpack,
 - Offline Fallback Page: menampilkan halaman khusus jika tidak ada koneksi internet.
 - Add to Home Screen (A2HS): pengguna dapat menambahkan aplikasi ke layar utama.
 - IndexedDB: menyimpan data restoran favorit secara lokal tanpa koneksi.
+
+
+- Note: Sebelum menjalankan aplikasi, pastikan sudah terinstall node.js
+
+  
+### Langkah menjalankan:
+1. Clone repo
+2. Install dependencies Npm install - Perintah ini akan menginstal semua package yang dibutuhkan, termasuk webpack, webpack-cli, dan webpack-dev-server.
+3. Ketik npm run start-dev di terminal, untuk menjalankan mode development, setelah dijalankan buka browser dan akses http://localhost:8080
+4. Ketik npm run build di terminal, untuk menjalankan mode production, Hasil build akan tersimpan di folder dist/.
