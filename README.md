@@ -1,4 +1,4 @@
-#﻿# Submission-Katalog-Restoran-PWA
+#﻿#Submission-Katalog-Restoran-PWA
 
 # Fare Culiner (Submission 2 - PWA)
 
@@ -29,3 +29,4 @@ Versi lanjutan dari aplikasi restoran sederhana berbasis JavaScript dan Webpack,
 2. Install dependencies Npm install - Perintah ini akan menginstal semua package yang dibutuhkan, termasuk webpack, webpack-cli, dan webpack-dev-server.
 3. Ketik npm run start-dev di terminal, untuk menjalankan mode development, setelah dijalankan buka browser dan akses http://localhost:8080
 4. Ketik npm run build di terminal, untuk menjalankan mode production, Hasil build akan tersimpan di folder dist/.
+
